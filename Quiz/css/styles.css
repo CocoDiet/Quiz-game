@@ -1,0 +1,236 @@
+:root{
+    --teal:#218380;
+    --black:#15181f;
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    font-size:62.5%;
+}
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    html{
+        font-size:16px;
+    }
+
+/*************HEADER******************************/
+
+
+header {
+  padding: 20px 10px;
+  background-color: #218380;
+  color: #fffffffd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: white;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+width:100%;
+
+  
+}
+  
+/************************MAIN*******************************/
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+     
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+.container{
+  width:100vw;
+  height:50vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;  
+  max-width:80rem ;
+  
+  margin:0 auto;
+  }
+ 
+.container>*{
+  width:100%
+  
+  }
+  
+ 
+    
+    /***
+    .text-center{
+    text-align:center;}
+    **/
+    
+    .hidden{
+      display:none;
+    } 
+  
+    .all {
+      padding: 50px 30px;
+      min-width: 800px;
+      max-width: 50%;
+      border-radius: 20px;
+      display: flex;
+      margin-top:90px;
+      flex-direction: column;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      justify-content: center;
+    }
+/* mobile screen */
+  
+  @media only screen and (max-width: 800px) {
+      * {
+        font-size: 16px;
+      }
+      .all
+       {
+        padding: 50px 20px;
+        min-width: 350px;
+        max-width: 90%;
+        
+      }
+  }
+    /***********Button*****************/
+    .btn {
+      display: block !important;
+      border-radius: 1rem;
+      margin: 1px 0;
+      text-align: center;
+      background-color: #218380;
+      color: white;
+      font-weight: 500;
+font-size:1.8rem;
+padding:1rem ;
+width:16rem;
+border:0.1rem solid #218380;
+margin-bottom:1rem;
+text-decoration:none;
+
+    }
+    
+    .btn:hover {
+      background-color: #218380;
+      color: black;
+      box-shadow:0 0.4rem 1.4rem 0 rgba(86,185,235,0.5);
+      transform:translateY(-0.1rem);
+transition:transform 150ms;
+    }
+    
+    .btn[disabled]:hover {
+      box-shadow: none;
+    }
+
+/*************END GAME**********************/
+.btn1{
+  background-color: aliceblue;
+  text-align: center;
+      color: white;
+      background: #218380;
+      cursor: pointer;
+      padding: 14px 10px;
+      border-radius: 4px 4px 4px 4px;
+      font-size: 18px;
+      font-weight: 500;
+      border: none;
+      border-radius: 6px;
+      text-transform: uppercase;
+      font-family: Avenir-Roman, sans-serif;
+          }
+          /*******Forms***********/
+          
+input{
+  margin-bottom:1rem;
+  width:20rem;
+  padding:1.5rem;
+  border:1px solid black;
+  }
+  label{
+    font-size: 25px;
+  }
+          
+
+
+
+
+
+
+
+
+
+ 
+  /*************************************
+   .btn {
+    display: block !important;
+    
+    margin: 15px 0;
+    text-align: left;
+    background-color: #218380;
+    border: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    background-color: #218380;
+    color: black;
+  }
+  
+  .quiz {
+    display: none;
+  }
+  .all {
+      padding: 50px 30px;
+      min-width: 800px;
+      max-width: 50%;
+      border-radius: 20px;
+      display: flex;
+      margin-top:60px;
+      flex-direction: column;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      justify-content: center;
+    }
+    
+    /* mobile screen */
+    /***********************
+  @media only screen and (max-width: 800px) {
+      * {
+        font-size: 16px;
+      }
+      .all
+       {
+        padding: 50px 20px;
+        min-width: 350px;
+        max-width: 90%;
+      }
+  }
+
+  for the main.
+   .flex-column{
+    display:flex;
+    flex-direction:column;
+    }
+    
+    
+    .flex-center{
+    justify-content:center;
+    align-items:center;
+    }
+    
+    .justify-center{
+    justify-content:center;
+  }
