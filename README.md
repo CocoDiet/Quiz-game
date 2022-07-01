@@ -9,3 +9,7 @@ It has database to store questions Correct answer +10marks Timmer of 60secs(Time
 Random questions at each play (It will peek random ques and will show it to the user) 
 Good and Extensible UI. 
 Can be played offline
+## Features
+
+- Fullscreen mode
+- Cross platform
